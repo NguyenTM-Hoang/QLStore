@@ -1,0 +1,201 @@
+﻿<Page x:Class="QLStore.Product.ProductPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="550" d:DesignWidth="800"
+      Height="550"
+      Title="ProductPages" >
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="67*"/>
+                <ColumnDefinition Width="13*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="txbFindProduct"  Height="32" Width="250" Margin="25,8,0,40" FontSize="15" FontStyle="Italic" VerticalAlignment="Center" HorizontalAlignment="Left"  FontFamily="Cambria"  materialDesign:HintAssist.Hint="Find Product">
+            </TextBox>
+            <Button Width="80" BorderThickness="0" Background="LightSeaGreen" materialDesign:ShadowAssist.ShadowDepth="Depth4" RenderTransformOrigin="-0.75,0.809" Margin="248,8,342,40"  Style="{StaticResource MaterialDesignRaisedButton}" Click="Button_Click">
+                Find
+
+            </Button>
+            <ComboBox Name="comboProductArrange" 
+                  Padding="6"
+                  FontSize="16"
+                  materialDesign:HintAssist.Hint="Sắp xếp theo giá tăng"
+                  Margin="390,9,100,0"
+                  FontStyle="Italic"
+                  FontFamily="cambria"
+                  Height="30"
+                  Width="180"
+                  VerticalAlignment="Top" SelectionChanged="ComboProductArrange_SelectionChanged" >
+                <ComboBox.Effect>
+                    <DropShadowEffect/>
+                </ComboBox.Effect>
+                <ComboBoxItem>
+                    Nhập kho lâu nhất
+                </ComboBoxItem>
+                <ComboBoxItem>Nhập kho gần nhất</ComboBoxItem>
+                <ComboBoxItem>Giá tăng dần</ComboBoxItem>
+                <ComboBoxItem>Giá giảm dần</ComboBoxItem>
+                <ComboBoxItem>Tồn kho nhiều nhất</ComboBoxItem>
+                <ComboBoxItem>Tồn khi ít nhất</ComboBoxItem>
+                <ComboBoxItem>Bán chạy nhất</ComboBoxItem>
+                <ComboBoxItem>Bán ế nhất</ComboBoxItem>
+
+
+            </ComboBox>
+            <Button Height="30" Width="70"  Content="Refresh" Style="{StaticResource MaterialDesignRaisedButton}" materialDesign:ShadowAssist.ShadowDepth="Depth4" Background="Black" Foreground="AliceBlue" Margin="570,40,10,0" Click="Button_Click_1"/>
+            <Button HorizontalAlignment="Right" Width="50" Height="50" Margin="0,5,30,5" Background="Transparent" BorderBrush="Black" Grid.Column="1">
+                <materialDesign:PackIcon Foreground="Black" Margin="-10" Kind="Qrcode" Width="40" Height="40" RenderTransformOrigin="-0.223,0.491" >
+
+                </materialDesign:PackIcon>
+            </Button>
+            <Button
+            Background="Transparent"
+            BorderBrush="#303030"
+             HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="18,50,0,0"
+            Height="25" Width="25"
+           
+            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}">
+                <materialDesign:PackIcon
+                Kind="KeyboardArrowLeft"
+                Height="20"
+                Width="20" />
+            </Button>
+
+            <!--Trang sau-->
+            <Button
+            Background="Transparent"
+            BorderBrush="#303030"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="54,48,0,0"
+            Height="27" Width="27"
+           
+            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}">
+                <materialDesign:PackIcon
+                Kind="KeyboardArrowRight"
+                Height="20"
+                Width="20" />
+            </Button>
+
+        </Grid>
+        <Grid Grid.ColumnSpan="2" Grid.Row="1" Background="Transparent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="93*"/>
+                <ColumnDefinition Width="181*"/>
+                <ColumnDefinition Width="49*"/>
+                <ColumnDefinition Width="69*"/>
+            </Grid.ColumnDefinitions>
+            <ListView x:Name="listviewShowProduct" Height="450" VerticalAlignment="Top" 
+                      Background="Transparent" BorderThickness="0" Grid.ColumnSpan="5"
+                      Margin="0,5,0,0" 
+                      PreviewMouseLeftButtonUp="ListviewShowProduct_PreviewMouseLeftButtonUp">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="5" >
+                        </UniformGrid>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Width="150" Height="200">
+                            <Border>
+                                <Border.Effect>
+                                    <DropShadowEffect
+                                    Color="Black"
+                                    Direction="270"
+                                    ShadowDepth="5"
+                                    BlurRadius="10"/>
+                                </Border.Effect>
+                                <Image Source="{Binding Path=Image_Path}"
+                                   Stretch="UniformToFill"
+                                   Width="140" Height="150"
+                                   HorizontalAlignment="Center"
+                                       VerticalAlignment="Top">
+                                    <!--<Image.Clip>
+                                        <RectangleGeometry
+                                        RadiusX="50"
+                                        RadiusY="50"
+                                        />
+                                    </Image.Clip>-->
+                                </Image>
+                            </Border>
+
+                            <TextBlock Text="{Binding Path=NameProduct}"
+                                   MaxWidth="120"
+                                   TextAlignment="Center"
+                                   TextWrapping="Wrap"
+                                      
+                                   FontSize="13" Margin="0,5,0,0"
+                                   HorizontalAlignment="Center"
+                                   FontFamily="Cambria"
+                                   FontWeight="Bold"/>
+                            <TextBlock Text="{Binding Path=Original_Price}"
+                                   FontFamily="Arial"
+                                   HorizontalAlignment="Right"
+                                   Background="Red"
+                                   Foreground="White"
+                                   FontSize="10"
+                                   Padding="1">
+                                   <Bold><Underline>đ</Underline></Bold>
+                            </TextBlock>
+                        </StackPanel>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <ProgressBar Width="25" Height="25"
+                     Style="{StaticResource MaterialDesignCircularProgressBar}"
+                     x:Name="ProgressBar" Grid.Column="2" Margin="168,222">
+                <ProgressBar.Triggers>
+                    <EventTrigger RoutedEvent="Loaded">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="Value" From="0" To="100" Duration="0:0:1" RepeatBehavior="Forever"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </ProgressBar.Triggers>
+            </ProgressBar>
+            <Button x:Name="btnExport" Margin="48,396,40,24" Height="50" Width="50"  Background="GreenYellow"
+              Style="{StaticResource MaterialDesignFloatingActionAccentButton}"
+              ToolTip="Export to Excel" Grid.Column="4" BorderThickness="0" Click="BtnExport_Click">
+                <materialDesign:PackIcon
+                Kind="Export"
+                Height="30"
+                Width="30" />
+            </Button>
+            <Button x:Name="btnImport" BorderThickness="0"  Grid.ColumnSpan="2" Margin="78,396,108,24"  Background="GreenYellow" Height="50" Width="50"
+              Style="{StaticResource MaterialDesignFloatingActionAccentButton}"
+              ToolTip="Import from excel" RenderTransformOrigin="-0.16,0.5" Grid.Column="3" Click="BtnImport_Click">
+                <materialDesign:PackIcon
+                Kind="Import"
+                Height="35"
+                Width="35" />
+            </Button>
+            <Button x:Name="btnAdd" Background="GreenYellow" BorderThickness="0" Grid.Column="3" HorizontalAlignment="Center" Margin="8,396,40,24" Height="50" Width="50"
+              Style="{StaticResource MaterialDesignFloatingActionAccentButton}"
+              ToolTip="Add Item" RenderTransformOrigin="0.56,0.78" Click="BtnAdd_Click">
+                <materialDesign:PackIcon
+                Kind="Plus"
+                Height="35"
+                Width="35"  />
+            </Button>
+
+
+        </Grid>
+
+    </Grid>
+</Page>

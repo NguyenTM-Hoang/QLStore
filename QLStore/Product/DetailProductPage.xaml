@@ -1,0 +1,341 @@
+﻿<Page x:Class="QLStore.Product.DetailProductPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:QLStore.Product"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="900"
+      Height="450"
+      Title="DetailProductPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.4*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="1.5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2.2*"/>
+        </Grid.ColumnDefinitions>
+        <Button
+            Background="Transparent"
+            BorderBrush="#303030"
+             HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="15,10,0,0"
+            Height="27" Width="27"
+           Command="{x:Static NavigationCommands.BrowseBack}"
+            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}">
+            <materialDesign:PackIcon
+                Kind="KeyboardArrowLeft"
+                Height="20"
+                Width="20" />
+        </Button>
+
+        <!--Trang sau-->
+        <Button
+            Background="Transparent"
+            BorderBrush="#303030"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="54,8,0,0"
+            Height="27" Width="27"
+           Command="{x:Static NavigationCommands.BrowseForward}"
+            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}">
+            <materialDesign:PackIcon
+                Kind="KeyboardArrowRight"
+                Height="20"
+                Width="20" />
+        </Button>
+
+
+        <Label HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="3" FontSize="25" FontFamily="Arial" FontWeight="ExtraBlack" Foreground="Teal" >
+            Detail of Product
+        </Label>
+       
+        <Border Grid.Column="0" Grid.Row="1" Grid.RowSpan="3">
+            <Border.Effect>
+                <DropShadowEffect
+                                    Color="Black"
+                                    Direction="270"
+                                    ShadowDepth="1"
+                                    BlurRadius="10"/>
+            </Border.Effect>
+            <Image Stretch="UniformToFill"
+                   Width="150" Height="180"
+                   HorizontalAlignment="Stretch"
+                   VerticalAlignment="Bottom"
+                   Name="imgProduct">
+            </Image>
+           
+        </Border>
+        <!--Tên sản phẩm textbox-->
+        <TextBox materialDesign:HintAssist.Hint="Product name"  Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 Grid.Row="4" 
+                 Height="35"
+                 FontSize="16"
+                 Padding="5 -5 0 0"
+                 Foreground="DimGray"
+                 IsReadOnly="True"
+                 Margin="8"
+                 FontFamily="Cambria" x:Name="txbProductName"/>
+        <!--ID sản phẩm textbox-->
+        <TextBox materialDesign:HintAssist.Hint="Product ID"  Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 Grid.Row="5" 
+                 Height="35"
+                 FontSize="16"
+                 Padding="5 -5 0 0"
+                 Foreground="DimGray"
+                 IsReadOnly="True"
+                 Margin="8"
+                 FontFamily="cambria" x:Name="txbProductId"/>
+
+        <!--Mô tả sản phẩm-->
+        <TextBox Grid.ColumnSpan="2" Grid.Row="6"
+                TextWrapping="Wrap"
+                VerticalAlignment="Center"
+                 Margin="10 5 5 15"
+                MinWidth="280"
+                Padding="5 10 5 5"
+                AcceptsReturn="True"
+                VerticalScrollBarVisibility="Auto"
+                SpellCheck.IsEnabled="True"
+                 FontSize="18"
+                 FontFamily="Cambria"
+                materialDesign:HintAssist.Hint="Product description"
+                Background="Transparent"
+                 Height="60" x:Name="txbDescri">
+        </TextBox>
+
+        <TextBox materialDesign:HintAssist.Hint="Product Type"  Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 Grid.Row="1" 
+                 Grid.Column="1"
+                 Height="35"
+                 FontSize="16"
+                 Padding="5 -5 0 0"
+                 Foreground="DimGray"
+                 IsReadOnly="True"
+                 Margin="8"
+                 FontFamily="cambria" x:Name="txbProductType"/>
+        <TextBox materialDesign:HintAssist.Hint="Original Price"  
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 Grid.Row="2" 
+                 Grid.Column="1"
+                 Height="45"
+                 FontSize="16"
+                 Padding="5 -2 0 0"
+                 Foreground="DimGray"
+                 IsReadOnly="True"
+                 Margin="8"
+                 FontFamily="cambria" x:Name="txbOriginalPrice" />
+
+        <TextBox materialDesign:HintAssist.Hint="Current Amount"  Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 Grid.Row="3" 
+                 Grid.Column="1"
+                 Height="35"
+                 FontSize="16"
+                 Padding="5 -5 0 0"
+                 Foreground="DimGray"
+                 IsReadOnly="True"
+                 Margin="8"
+                 FontFamily="cambria" x:Name="txbCurrAmount"/>
+        <TextBox materialDesign:HintAssist.Hint="Supplier"  Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 Grid.Row="4" 
+                 Grid.Column="1"
+                 Height="35"
+                 FontSize="16"
+                 Padding="5 -5 0 0"
+                 Foreground="DimGray"
+                 IsReadOnly="True"
+                 Margin="8"
+                 FontFamily="cambria" x:Name="txbSupplier"/>
+        <TextBox materialDesign:HintAssist.Hint="Date Import"  Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 Grid.Row="5" 
+                 Grid.Column="1"
+                 Height="35"
+                 FontSize="16"
+                 Padding="5 -5 0 0"
+                 Foreground="DimGray"
+                 IsReadOnly="True"
+                 Margin="8"
+                 FontFamily="cambria" x:Name="txbDateImport"/>
+
+        <Button x:Name="btnEditProduct" Grid.Column="2" Grid.Row="6" HorizontalAlignment="Right" Margin="10" Height="50" Width="50"
+              Style="{StaticResource MaterialDesignFloatingActionAccentButton}"
+              ToolTip="Edit Product" Click="BtnEditProduct_Click">
+            <materialDesign:PackIcon
+                Kind="Edit"
+                Height="30"
+                Width="30"  />
+        </Button>
+        <Button x:Name="btnDelete" Grid.Column="2" ToolTip="Delete Product" Grid.Row="6" HorizontalAlignment="Right" Margin="0,17,78,18" Height="50" Width="50"
+              Style="{StaticResource MaterialDesignFloatingActionAccentButton}" Click="BtnDelete_Click"
+            >
+            <materialDesign:PackIcon
+                Kind="DeleteCircle"
+                Height="35"
+                Width="35" />
+        </Button>
+        <Button x:Name="btnAddbill" Grid.Column="2" Grid.Row="6" FontFamily="Cambria" FontSize="16" FontWeight="Black" HorizontalAlignment="Left" Margin="33,24,0,29"                Style="{StaticResource MaterialDesignRaisedAccentButton}"
+                Width="120"
+                Background="Transparent"
+                ToolTip="Resource name: MaterialDesignRaisedAccentButton"
+                materialDesign:RippleAssist.Feedback="Transparent" Click="BtnAddbill_Click">
+            Add bill
+        </Button>
+        <ListView Name="listBill" Grid.Row="1" Grid.RowSpan="5" Grid.Column="2"
+                  FontFamily="Sitka Subheading"
+                  FontSize="15"
+                  Margin="5,8,0,0"
+                  Foreground="Black"
+                  HorizontalAlignment="Left"
+                  Width="460"                 
+                  Background="Transparent" >
+            <ListView.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter  Property="FontSize" Value="15"></Setter>
+                    <Setter Property="FontFamily"  Value="Cambria"/>
+                    <Setter  Property="TextTrimming" Value="CharacterEllipsis" />
+                </Style>
+                <Style TargetType="{x:Type ScrollBar}">
+                    <Setter Property="Margin" Value="2,50,0,8" />
+                    <Setter Property="Stylus.IsFlicksEnabled" Value="false" />
+                    <Setter Property="Background" Value="Transparent" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type ScrollBar}">
+                                <Track IsDirectionReversed="true" Focusable="false">
+                                    <Track.Thumb>
+                                        <Thumb Width="8" Background="Green"/>
+                                    </Track.Thumb>
+                                    <Track.IncreaseRepeatButton>
+                                        <RepeatButton Command="ScrollBar.PageDownCommand" Opacity="0" Focusable="false" />
+                                    </Track.IncreaseRepeatButton>
+                                    <Track.DecreaseRepeatButton>
+                                        <RepeatButton Command="ScrollBar.PageUpCommand" Opacity="0" Focusable="false" />
+                                    </Track.DecreaseRepeatButton>
+                                </Track>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListView.Resources>
+
+            <ListView.View>
+                <GridView  >
+                    <!--Cột tên khách hàng-->
+                    <GridViewColumn 
+                        Width="120" 
+                        DisplayMemberBinding="{Binding CustName}">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border>
+                                    <Border.Effect>
+                                        <DropShadowEffect
+                                            Color="White"
+                                            Direction="270"
+                                            ShadowDepth="1"
+                                            BlurRadius="5"/>
+                                    </Border.Effect>
+                                    <Label Content="Tên KH"
+                                       Padding="1"
+                                       FontSize="15"
+                                       Foreground="Black"                                   
+                                       FontWeight="Bold"/>
+                                </Border>
+
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                    </GridViewColumn>
+                    <!--Cột ngày mua-->
+                    <GridViewColumn
+                        Width="130"
+                        DisplayMemberBinding="{Binding Date}">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border>
+                                    <Border.Effect>
+                                        <DropShadowEffect
+                                            Color="White"
+                                            Direction="270"
+                                            ShadowDepth="1"
+                                            BlurRadius="5"/>
+                                    </Border.Effect>
+                                    <Label Content="Ngày"
+                                       Padding="1"
+                                       FontSize="15"
+                                       Foreground="Black"
+                                       FontWeight="Bold"/>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                    </GridViewColumn>
+                    <!--> So luongw<-->
+                    <GridViewColumn
+                        Width="120"
+                        DisplayMemberBinding="{Binding Amountsale}">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border>
+                                    <Border.Effect>
+                                        <DropShadowEffect
+                                            Color="White"
+                                            Direction="270"
+                                            ShadowDepth="1"
+                                            BlurRadius="5"/>
+                                    </Border.Effect>
+                                    <Label Content="Số lượng"
+                                       Padding="1"
+                                       FontSize="15"
+                                       Foreground="Black"
+                                       FontWeight="Bold"/>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                    </GridViewColumn>
+                    <!--Cột tiền nhận-->
+                    <GridViewColumn
+                       Width="120"
+                        DisplayMemberBinding="{Binding Price_sale}">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border>
+                                    <Border.Effect>
+                                        <DropShadowEffect
+                                            Color="White"
+                                            Direction="270"
+                                            ShadowDepth="1"
+                                            BlurRadius="5"/>
+                                    </Border.Effect>
+                                    <Label Content="Thu (đ)"
+                                       Padding="1"
+                                       FontSize="15"
+                                       Foreground="Black"
+                                       FontWeight="Bold" />
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+            
+        </ListView>
+        <Label Content="Chưa có hóa đơn nào"
+               FontFamily="Sitka Subheading"
+               FontStyle="Italic" 
+               Grid.Column="2" Grid.Row="2"
+               VerticalAlignment="Bottom"
+               FontSize="18"
+               HorizontalAlignment="Center"
+               Name="noBillAnnounce"
+               Visibility="Hidden"/>
+    </Grid>
+</Page>

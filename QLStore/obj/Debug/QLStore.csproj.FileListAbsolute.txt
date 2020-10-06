@@ -1,0 +1,118 @@
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\QLStore.exe.config
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\QLStore.exe
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\QLStore.pdb
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\MaterialDesignColors.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\MaterialDesignColors.pdb
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\QLStore.csprojAssemblyReference.cache
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\App.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\QLStore_MarkupCompile.cache
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\QLStore_MarkupCompile.lref
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\QLStore.g.resources
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\QLStore.Properties.Resources.resources
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\QLStore.csproj.GenerateResource.cache
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\QLStore.csproj.CoreCompileInputs.cache
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\QLStore.csproj.CopyComplete
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\QLStore.exe
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\QLStore.pdb
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\ExpanderControl.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\App.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\ExpanderControl.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\MainWindow.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\MainWindow.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Product\ProductPage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Product\ProductPage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Product\DetailProductPage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Product\NewProductPage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Product\ProductTypePage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Product\DetailProductPage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Product\NewProductPage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Product\ProductTypePage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\QLStore_Content.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\EntityFramework.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\EntityFramework.SqlServer.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\EntityFramework.xml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\EntityFramework.SqlServer.xml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Dialog.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Dialog.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\Alba.CsConsoleFormat.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Supplier_\SupplierPage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Supplier_\SupplierPage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Product\ImportFromExcel.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Bill\NewBillPage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Bill\ListBillPage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\Aspose.Cells.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\InteractiveDataDisplay.WPF.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\System.Reactive.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\Aspose.Cells.xml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\InteractiveDataDisplay.WPF.pdb
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\bin\Debug\System.Reactive.xml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Product\ImportFromExcel.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Bill\NewBillPage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore\QLStore\obj\Debug\Bill\ListBillPage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\QLStore.csprojAssemblyReference.cache
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Product\ProductPage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Product\ImportFromExcel.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Bill\NewBillPage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Bill\ListBillPage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Dialog.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\ExpanderControl.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\MainWindow.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Product\DetailProductPage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Product\NewProductPage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Product\ProductPage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Product\ProductTypePage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Supplier_\SupplierPage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\App.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\QLStore_MarkupCompile.cache
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\QLStore_MarkupCompile.lref
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\QLStore.exe
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\QLStore.pdb
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\QLStore.exe.config
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\QLStore.exe
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\QLStore.pdb
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\Alba.CsConsoleFormat.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\Aspose.Cells.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\EntityFramework.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\EntityFramework.SqlServer.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\InteractiveDataDisplay.WPF.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\MaterialDesignColors.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\System.Reactive.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\Aspose.Cells.xml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\EntityFramework.xml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\EntityFramework.SqlServer.xml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\InteractiveDataDisplay.WPF.pdb
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\MaterialDesignColors.pdb
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\System.Reactive.xml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\App.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Product\ImportFromExcel.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Bill\NewBillPage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Bill\ListBillPage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Dialog.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\ExpanderControl.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\MainWindow.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Product\DetailProductPage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Product\NewProductPage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Product\ProductTypePage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Supplier_\SupplierPage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\QLStore.g.resources
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\QLStore.Properties.Resources.resources
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\QLStore.csproj.GenerateResource.cache
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\QLStore.csproj.CoreCompileInputs.cache
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\QLStore.csproj.CopyComplete
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Statistic\StatisticPage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Statistic\StatisticPage.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\Resource\ResourceDictionary.baml
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\CustomerMVVM\CustomerPage.g.cs
+D:\HKII 2019-2020\LT Window\Đồ án cuối kì\QLStore - dang sua\QLStore\obj\Debug\CustomerMVVM\CustomerPage.baml

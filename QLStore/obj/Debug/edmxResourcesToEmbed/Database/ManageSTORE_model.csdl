@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MANAGEMENT_STOREModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="ID_Customer" />
+    </Key>
+    <Property Name="ID_Customer" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Name_Cus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address_Cus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Birthday" Type="DateTime" Precision="3" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Detail_Product">
+    <Key>
+      <PropertyRef Name="ID_Product" />
+    </Key>
+    <Property Name="ID_Product" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="ID_TypeProduct" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="ID_Supplier" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Original_Price" Type="Int32" />
+    <Property Name="NameProduct" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description_Pro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Image_Path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Amount_Current" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Input_Form">
+    <Key>
+      <PropertyRef Name="ID_Input" />
+    </Key>
+    <Property Name="ID_Input" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="ID_Product" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="ID_Sup" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Input_Date" Type="DateTime" Precision="3" />
+    <Property Name="Amount" Type="Int32" />
+  </EntityType>
+  <EntityType Name="LoginUser">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Pass" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="NameLog" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Output_Form">
+    <Key>
+      <PropertyRef Name="ID_Output" />
+    </Key>
+    <Property Name="ID_Output" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="ID_Product" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="ID_Customer" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Amount" Type="Int32" />
+    <Property Name="Output_Date" Type="DateTime" Precision="3" />
+    <Property Name="Price_Sale" Type="Int32" />
+    <Property Name="Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BuyOnline" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Ship" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="ID_sup" />
+    </Key>
+    <Property Name="ID_sup" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Name_Sup" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address_sup" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="MoreInfo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Type_product">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Type_Product1" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Num_Of_Product" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="MANAGEMENT_STORE_Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Detail_Product" EntityType="Self.Detail_Product" />
+    <EntitySet Name="Input_Form" EntityType="Self.Input_Form" />
+    <EntitySet Name="LoginUsers" EntityType="Self.LoginUser" />
+    <EntitySet Name="Output_Form" EntityType="Self.Output_Form" />
+    <EntitySet Name="Suppliers" EntityType="Self.Supplier" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Type_product" EntityType="Self.Type_product" />
+  </EntityContainer>
+</Schema>

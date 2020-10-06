@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MANAGEMENT_STOREModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="ID_Customer" />
+    </Key>
+    <Property Name="ID_Customer" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Name_Cus" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address_Cus" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="char" MaxLength="10" />
+    <Property Name="Birthday" Type="datetime" />
+    <Property Name="Email" Type="char" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Detail_Product">
+    <Key>
+      <PropertyRef Name="ID_Product" />
+    </Key>
+    <Property Name="ID_Product" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="ID_TypeProduct" Type="char" MaxLength="10" />
+    <Property Name="ID_Supplier" Type="char" MaxLength="10" />
+    <Property Name="Original_Price" Type="int" />
+    <Property Name="NameProduct" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description_Pro" Type="nvarchar(max)" />
+    <Property Name="Image_Path" Type="nvarchar(max)" />
+    <Property Name="Amount_Current" Type="int" />
+  </EntityType>
+  <EntityType Name="Input_Form">
+    <Key>
+      <PropertyRef Name="ID_Input" />
+    </Key>
+    <Property Name="ID_Input" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="ID_Product" Type="char" MaxLength="10" />
+    <Property Name="ID_Sup" Type="char" MaxLength="10" />
+    <Property Name="Input_Date" Type="datetime" />
+    <Property Name="Amount" Type="int" />
+  </EntityType>
+  <EntityType Name="LoginUser">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Pass" Type="char" MaxLength="20" />
+    <Property Name="NameLog" Type="char" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Output_Form">
+    <Key>
+      <PropertyRef Name="ID_Output" />
+    </Key>
+    <Property Name="ID_Output" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="ID_Product" Type="char" MaxLength="10" />
+    <Property Name="ID_Customer" Type="char" MaxLength="10" />
+    <Property Name="Amount" Type="int" />
+    <Property Name="Output_Date" Type="datetime" />
+    <Property Name="Event_" Type="nvarchar(max)" />
+    <Property Name="Price_Sale" Type="int" />
+    <Property Name="Note" Type="nvarchar(max)" />
+    <Property Name="Status" Type="nvarchar" MaxLength="50" />
+    <Property Name="BuyOnline" Type="nchar" MaxLength="10" />
+    <Property Name="Ship" Type="int" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="ID_sup" />
+    </Key>
+    <Property Name="ID_sup" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Name_Sup" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address_sup" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="char" MaxLength="10" />
+    <Property Name="Email" Type="char" MaxLength="50" />
+    <Property Name="MoreInfo" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Type_product">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Type_Product" Type="nchar" MaxLength="50" />
+    <Property Name="Num_Of_Product" Type="int" />
+  </EntityType>
+  <EntityContainer Name="MANAGEMENT_STOREModelStoreContainer">
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Detail_Product" EntityType="Self.Detail_Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Input_Form" EntityType="Self.Input_Form" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoginUser" EntityType="Self.LoginUser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Output_Form" EntityType="Self.Output_Form" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Supplier" EntityType="Self.Supplier" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Type_product" EntityType="Self.Type_product" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
